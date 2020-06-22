@@ -8,7 +8,7 @@ bottomDiv.textContent = `Made for ${teamName}`;
 input.addEventListener("input", updateResult);
 
 function updateResult(e) {
-  let inputValue = e.target.value;
+  let inputValue = e.target.value.toUpperCase();;
 
   if (inputValue.includes("C") && !inputValue.includes("F")) {
     let temp;
