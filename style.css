@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+  background-color: #F5F5DC;
+  color: #444444;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#content {
+  position: relative;
+  top: 45%;
+  transform: translateY(-55%);
+}
+
+#bottomDiv {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  font-size: 0.5em;
+  color: #666666;
+}
+
+input {
+  border: 0px;
+  border-bottom: 1px dashed #78664f;
+  background-color: transparent;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #b2a799;
+}
