@@ -35,7 +35,6 @@ input {
   border-bottom: 1px dashed #78664f;
   background-color: transparent;
   text-align: center;
-  text-transform: uppercase;
 }
 
 input:focus {
