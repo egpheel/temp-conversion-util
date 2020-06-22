@@ -1,1 +1,3 @@
-# temp-conversion-util
+### Temperature conversion utility
+
+Just a random thing.
