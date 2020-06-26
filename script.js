@@ -1,4 +1,4 @@
-const teamName = "[insert name of the best team here]";
+const teamName = "FTR eSports";
 const input = document.querySelector("input");
 const result = document.querySelector("#result");
 const bottomDiv = document.querySelector("#bottomDiv");
